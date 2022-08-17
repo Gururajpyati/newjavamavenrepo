@@ -4,7 +4,7 @@ pipeline {
     agent any
     tools {
             maven 'maven386'
-            Docker 'docker'
+            docker 'docker'
             
     }
     stages {
