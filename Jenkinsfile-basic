@@ -4,7 +4,7 @@ pipeline {
     agent any
     tools {
             maven 'maven386'
-            docker 'docker'
+            
     }
     stages {
         stage('build') {
